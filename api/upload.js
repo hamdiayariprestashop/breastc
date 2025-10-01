@@ -1,8 +1,4 @@
-const formidable = require('formidable');
-const fs = require('fs');
-const path = require('path');
-
-const UPLOAD_DIR = path.join(process.cwd(), 'public/uploads');
+const { put } = require('@vercel/blob');
 
 module.exports = async (req, res) => {
   // Enable CORS
@@ -24,40 +20,61 @@ module.exports = async (req, res) => {
   }
 
   try {
-    // Ensure upload directory exists
-    if (!fs.existsSync(UPLOAD_DIR)) {
-      fs.mkdirSync(UPLOAD_DIR, { recursive: true });
+    if (!process.env.BLOB_READ_WRITE_TOKEN) {
+      return res.status(500).json({ 
+        error: 'Blob storage not configured',
+        message: 'Please add BLOB_READ_WRITE_TOKEN to your Vercel environment variables'
+      });
     }
 
-    const form = formidable({
-      uploadDir: UPLOAD_DIR,
-      keepExtensions: true,
-      maxFileSize: 100 * 1024 * 1024, // 100MB
-      filename: (name, ext, part, form) => {
-        const base = path.basename(part.originalFilename, path.extname(part.originalFilename))
-          .replace(/[^a-zA-Z0-9-_]/g, '_');
-        const stamp = Date.now();
-        const extension = path.extname(part.originalFilename) || '.bin';
-        return `${base}_${stamp}${extension}`;
+    // Parse multipart form data
+    const contentType = req.headers['content-type'] || '';
+    if (!contentType.includes('multipart/form-data')) {
+      return res.status(400).json({ error: 'Content-Type must be multipart/form-data' });
+    }
+
+    // Read the file from request body
+    const chunks = [];
+    for await (const chunk of req) {
+      chunks.push(chunk);
+    }
+    const buffer = Buffer.concat(chunks);
+
+    // Extract filename from the multipart data (simplified)
+    const boundary = contentType.split('boundary=')[1];
+    const parts = buffer.toString('binary').split(`--${boundary}`);
+    
+    let filename = 'upload_' + Date.now();
+    let fileBuffer = buffer;
+
+    // Try to extract filename and file content
+    for (const part of parts) {
+      if (part.includes('Content-Disposition')) {
+        const nameMatch = part.match(/filename="([^"]+)"/);
+        if (nameMatch) {
+          const originalName = nameMatch[1];
+          const ext = originalName.substring(originalName.lastIndexOf('.'));
+          filename = originalName.replace(/[^a-zA-Z0-9.-]/g, '_').replace(ext, '') + '_' + Date.now() + ext;
+          
+          // Extract file content (after headers)
+          const fileStart = part.indexOf('\r\n\r\n') + 4;
+          const fileEnd = part.lastIndexOf('\r\n');
+          if (fileStart > 3 && fileEnd > fileStart) {
+            fileBuffer = Buffer.from(part.substring(fileStart, fileEnd), 'binary');
+          }
+        }
       }
+    }
+
+    // Upload to Vercel Blob
+    const blob = await put(filename, fileBuffer, {
+      access: 'public',
     });
 
-    form.parse(req, (err, fields, files) => {
-      if (err) {
-        console.error('Upload error:', err);
-        return res.status(500).json({ error: 'Upload failed', details: err.message });
-      }
-
-      const file = files.file;
-      if (!file || (Array.isArray(file) && file.length === 0)) {
-        return res.status(400).json({ error: 'No file uploaded' });
-      }
-
-      const uploadedFile = Array.isArray(file) ? file[0] : file;
-      const filename = path.basename(uploadedFile.filepath);
-      const urlPath = `/uploads/${filename}`;
-
-      res.status(200).json({ success: true, url: urlPath });
+    res.status(200).json({ 
+      success: true, 
+      url: blob.url,
+      filename: filename 
     });
   } catch (error) {
     console.error('Upload failed:', error);

@@ -1,7 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const CONTENT_FILE = path.join(process.cwd(), 'src/data/content.json');
+// Read from public folder (read-only on Vercel)
+const CONTENT_FILE = path.join(process.cwd(), 'public/content.json');
 
 module.exports = async (req, res) => {
   // Enable CORS
