@@ -8,6 +8,8 @@
     "server": "node server/server.js",
     "dev:full": "npm run pm2:dev:start",
     "build": "vite build",
+    "build:vercel": "npm run build",
+    "vercel-build": "npm run build",
     "lint": "eslint .",
     "preview": "vite preview",
     "pm2:dev:start": "pm2 start server/server.js --name bic-server --watch && pm2 start npm --name bic-vite -- run dev",
