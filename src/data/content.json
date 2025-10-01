@@ -1,0 +1,506 @@
+{
+  "site": {
+    "title": "Breast Imaging Center",
+    "subtitle": "BIC",
+    "description": "Les experts en imagerie diagnostique et interventionnelle du sein"
+  },
+  "contact": {
+    "email": "drzeinebbelkhiria@gmail.com",
+    "phones": [
+      "+216 53 008 108",
+      "+216 57 132 305"
+    ]
+  },
+  "navigation": {
+    "logo": "/your-logo.webp",
+    "menuItems": [
+      {
+        "label": "Accueil",
+        "href": "#accueil"
+      },
+      {
+        "label": "Infos",
+        "href": "#infos"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Départements",
+        "href": "#departements"
+      },
+      {
+        "label": "Médecins",
+        "href": "#medecins"
+      },
+      {
+        "label": "Médias",
+        "href": "#medias"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "ctaButton": "Rendez-Vous"
+  },
+  "hero": {
+    "title": "Breast Imaging Center",
+    "subtitle": "Les experts en imagerie diagnostique et interventionnelle du sein",
+    "backgroundImage": "https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop",
+    "ctaButtons": {
+      "primary": "Prendre Rendez-vous",
+      "secondary": "En savoir plus"
+    }
+  },
+  "whyChoose": {
+    "title": "Pourquoi Choisir BIC ?",
+    "description": "Parce que nous visons l'excellence, nous avons investi dans une technologie de pointe pour offrir un service alliant confort, innovation et expertise scientifique. Notre centre est une référence en imagerie du sein et en radiologie générale, intégrant les dernières avancées en intelligence artificielle et en logistique médicale. Grâce à notre plateforme unique en Afrique du Nord, nous garantissons un accompagnement personnalisé, où chaque patiente bénéficie d'un suivi attentif et d'une prise en charge optimisée. Votre santé est notre priorité, et notre équipe est à votre écoute avec bienveillance et engagement.",
+    "image": "/uploads/videoframe_4649_1757422273940.png",
+    "features": [
+      {
+        "title": "Une approche centrée sur le patient",
+        "description": "Une optimisation des examens, une communication claire et un suivi personnalisé.",
+        "icon": "Heart"
+      },
+      {
+        "title": "Un diagnostic synthétique",
+        "description": "Des services d'expertise et de relecture, en coordination avec les médecins soignants.",
+        "icon": "Target"
+      },
+      {
+        "title": "Un engagement sociale et scientifique",
+        "description": "Des participations bénévoles avec des partenaires reconnus.",
+        "icon": "Award"
+      }
+    ]
+  },
+  "team": {
+    "title": "Une Équipe Dédiée à Votre Santé",
+    "subtitle": "Nous sommes une équipe de spécialistes engagés, unissant expertise médicale et innovation technologique pour offrir des soins de qualité et un suivi personnalisé.",
+    "video": "/uploads/BIC_fr_1757426034551.mov",
+    "features": [
+      {
+        "title": "Une Approche Humaine",
+        "description": "Chaque patient est unique. Nous adaptons nos services pour répondre à vos besoins spécifiques et vous accompagner tout au long de votre parcours de santé."
+      },
+      {
+        "title": "Expertise Diagnostique",
+        "description": "Nous avons fait le choix d'intégrer une platforme à la pointe de la technologie, répondant aux enjeux cliniques les plus complexes et permettant d'offrir des solutions fiables."
+      },
+      {
+        "title": "Partenariats Scientifiques",
+        "description": "En collaboration avec des acteurs publics et privés, nous participons activement à la recherche appliquée pour faire progresser l’imagerie médicale adaptée à notre contexte socio-économique."
+      }
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Un centre d’imagerie médicale qui allie innovation, humanité et excellence diagnostique. Nous croyons que chaque patient mérite un suivi clair et précis, et chaque médecin un partenaire de confiance.",
+    "items": [
+      {
+        "title": "Mammographie 3D & Angio-Mammographie",
+        "description": "Dépistage et diagnostic précis des maladies du sein grâce à des technologies de pointe adaptées à chaque besoin.",
+        "icon": "Camera",
+        "image": "/uploads/3D-MAMMOGRAM-scaled_1757423615717.jpg"
+      },
+      {
+        "title": "Échographie & Élastographie ShearWave",
+        "description": "Une solution non invasive pour examiner en temps réel les organes internes. Une technique avancée pour évaluer la rigidité des tissus et faciliter un diagnostic précis des anomalies.",
+        "icon": "Monitor",
+        "image": "/uploads/7__1__1757423696701.jpg"
+      },
+      {
+        "title": "Actes Interventionnels",
+        "description": "Une technique écho et/ou radio-guidée à but diagnostique et thérapeutique. Biopsies, ponction et repérage.",
+        "icon": "Target",
+        "image": "/uploads/radiologie-interventionnelle-olympe-imagerie-hpa_1757423705421.jpg"
+      },
+      {
+        "title": "Radiologie Standard",
+        "description": "Inclut les examens classiques comme la radiographie des genoux ou du thorax pour une prise en charge efficace.",
+        "icon": "Scan",
+        "image": "/uploads/radiographie-olympe-imagerie-hpa_1757423752603.jpg"
+      },
+      {
+        "title": "Cone Beam",
+        "description": "Des images radiographiques précises pour des soins dentaires optimaux et un diagnostic approfondi. Exploration en coupe des sinus.",
+        "icon": "Search",
+        "image": "/uploads/hepworth-img-1_1757423785636.jpg"
+      },
+      {
+        "title": "IRM & Scanner",
+        "description": "Imagerie de haute précision pour détecter, analyser et suivre l’évolution de pathologies complexes.",
+        "icon": "Scan",
+        "image": "/uploads/scanner-irm-difference-irm-paris-scanner-paris-centre-imagerie-maussins-nollet-radiologue-paris-17-radiologue-paris-19_1757423813933.jpeg"
+      }
+    ]
+  },
+  "departments": {
+    "title": "Départements",
+    "subtitle": "Découvrez nos départements dédiés à l'imagerie médicale de pointe, conçus pour répondre à vos besoins de santé avec précision et efficacité. Notre équipe d'experts utilise les dernières technologies pour vous offrir des services personnalisés et des diagnostics fiables. Chaque département est spécialisé pour garantir une prise en charge optimale et adaptée à chaque patient.",
+    "featured": {
+      "title": "Mammographie 3D & Angio-Mammographie",
+      "description": "La mammographie 3D, combinée à une fonctionnalité exclusive sur nos machines haute définition, offre une efficacité diagnostique supérieure grâce à une technologie d'IA innovante de traitement d'image. L'angio-Mammographie permet une imagerie du sein avec injection de produit de contraste permettant de démasquer des anomalies subtiles pour un diagnostic précoce et précis.",
+      "image": "/uploads/departments-6_1757426883275.webp"
+    },
+    "items": [
+      {
+        "title": "Mammographie 3D & Angio-Mammographie",
+        "icon": "Camera",
+        "description": "",
+        "image": "/uploads/mammographe__1__1757426792203.webp"
+      },
+      {
+        "title": "Échographie & Élastographie ShearWave",
+        "icon": "Monitor",
+        "description": "L'échographie est une méthode d'imagerie douce et rapide, permettant d'observer en temps réel les organes internes, les tissus mous, et de surveiller efficacement l'état de santé global. l'élastographie shearWave est une fonctionalité unique sur notre systéme permettant une supériorité diagnostique dans les cas les plus complexes.",
+        "image": "/uploads/Mach30B9_1757426799237.webp"
+      },
+      {
+        "title": "Actes Interventionnels",
+        "icon": "Target",
+        "description": "Il s'agit d'interventions n percutanées réalisées en ambulatoire, à visée diagnostique, comme les biopsies, ou thérapeutique, sous guidage échographique ou scanner. En sénologie, certains actes sont effectués dans le cadre du repérage pré-thérapeutique, tels que la pose de harpons et de clips sous contrôle échographique ou mammographique, permettant d'identifier avec précision les lésions cibles avant le traitement.",
+        "image": "/uploads/macrobiopsie-sein_1757426805274.webp"
+      },
+      {
+        "title": "Radiologie Standard",
+        "icon": "Scan",
+        "description": "La radiologie standard regroupe les examens d'imagerie essentiels comme les radiographies du thorax ou des articulations. Ce service permet une évaluation rapide et efficace des pathologies courantes.",
+        "image": "/uploads/macrobiopsie-sein_1757426809925.webp"
+      },
+      {
+        "title": "Cone Beam",
+        "icon": "Search",
+        "description": "Le Cone Beam est une technologie d'imagerie médicale utilisée principalement pour examiner la dentition, les sinus et l'ossature maxillo-faciale. Il permet de réaliser une étude détaillée des structures en une seule acquisition, avec une irradiation généralement inférieure à celle des scanners traditionnels, ce qui le rend particulièrement utile pour diagnostiquer des pathologies dans ces zones.\n\n",
+        "image": "/uploads/departments-5_1757426855845.webp"
+      },
+      {
+        "title": "IRM & Scanner",
+        "icon": "Scan",
+        "description": "Les examens d’IRM et de scanner offrent une imagerie médicale avancée, capable de détecter et de surveiller les pathologies les plus complexes pour une prise en charge optimale.",
+        "image": "/uploads/departments-4_1757426878386.webp"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "subtitle": "Nous répondons à vos interrogations les plus courantes concernant les examens de radiologie, d'imagerie de la femme et de sénologie. N’hésitez pas à nous contacter pour toute question supplémentaire ou pour prendre rendez-vous.",
+    "questions": [
+      {
+        "question": "À partir de quel âge doit-on faire une mammographie de dépistage ?",
+        "answer": "La mammographie de dépistage est généralement recommandée à partir de l'âge de 40 ans, même en l'absence de symptômes. Toutefois, si vous présentez des antécédents familiaux de cancer du sein, une consultation précoce est conseillée pour évaluer le risque et adapter le suivi."
+      },
+      {
+        "question": "Une échographie mammaire peut-elle remplacer une mammographie ?",
+        "answer": "Non, l'échographie mammaire ne remplace pas la mammographie. Ce sont des examens complémentaires. La mammographie reste le moyen principal de dépistage du cancer du sein, tandis que l'échographie est utilisée pour approfondir l'analyse en cas de seins denses ou d'anomalie détectée."
+      },
+      {
+        "question": "Quels sont les signes qui doivent m’alerter pour consulter en sénologie ?",
+        "answer": "Vous devriez consulter si vous remarquez : Une boule ou une masse dans le sein; Un écoulement anormal du mamelon; Une modification de la forme ou de la taille du sein; Une douleur persistante ou des changements de la peau (rougeur, rétraction)."
+      },
+      {
+        "question": "L'exposition aux rayons X d'une mammographie est-elle dangereuse ?",
+        "answer": "La dose de rayons X utilisée lors d’une mammographie est très faible et sans danger pour la plupart des femmes. Les bénéfices du dépistage précoce du cancer du sein surpassent largement les risques liés à cette exposition minime."
+      },
+      {
+        "question": "Doit-on prendre des précautions particulières avant une IRM mammaire ?",
+        "answer": "Oui, pour une IRM mammaire, il est conseillé de : Éviter de porter des objets métalliques; Informer votre radiologue si vous êtes enceinte ou si vous avez des implants métalliques; Planifier l’examen entre le 7ᵉ et le 14ᵉ jour du cycle menstruel pour une meilleure précision."
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "article-1",
+      "title": "L'Intelligence Artificielle en Mammographie",
+      "excerpt": "Une analyse approfondie des dernières avancées en IA appliquée à la mammographie 3D et leur impact sur le diagnostic précoce du cancer du sein.",
+      "content": "L'intelligence artificielle transforme radicalement le domaine de l'imagerie médicale, particulièrement en mammographie. Cette technologie révolutionnaire permet aujourd'hui d'améliorer significativement la précision diagnostique et de réduire les faux positifs.\n\n## Les Avancées Technologiques\n\nLes algorithmes d'IA modernes peuvent analyser des milliers d'images mammographiques en quelques secondes, identifiant des anomalies subtiles qui pourraient échapper à l'œil humain. Cette capacité est particulièrement précieuse dans le dépistage du cancer du sein, où la détection précoce peut sauver des vies.\n\n## Impact sur la Pratique Clinique\n\nDans notre centre, nous avons intégré ces technologies pour offrir à nos patientes un niveau de diagnostic inégalé. Les résultats sont prometteurs : réduction de 30% des faux positifs et amélioration de 25% de la détection des lésions précoces.\n\n## Perspectives d'Avenir\n\nL'avenir de la mammographie s'oriente vers une approche hybride, combinant l'expertise humaine et la précision algorithmique. Cette synergie promet de révolutionner le dépistage et le suivi des pathologies mammaires.",
+      "image": "/uploads/mammographe__1__1757426792203.webp",
+      "author": "Dr Zeineb Belkhiria",
+      "publishDate": "2024-01-15",
+      "category": "Technologie",
+      "featured": true,
+      "video": ""
+    },
+    {
+      "id": "article-2",
+      "title": "L'Élastographie ShearWave : Une Révolution en Échographie Mammaire",
+      "excerpt": "Découvrez comment cette technique d'imagerie avancée permet une évaluation précise de la rigidité des tissus mammaires pour un diagnostic plus fiable.",
+      "content": "L'élastographie ShearWave représente une avancée majeure dans le domaine de l'échographie mammaire. Cette technique innovante permet de quantifier la rigidité des tissus, offrant des informations cruciales pour le diagnostic différentiel des lésions mammaires.\n\n## Principe de Fonctionnement\n\nL'élastographie ShearWave utilise des ondes de cisaillement pour mesurer la vitesse de propagation dans les tissus. Plus un tissu est rigide, plus la vitesse de propagation est élevée. Cette mesure quantitative s'avère particulièrement utile pour distinguer les lésions bénignes des malignes.\n\n## Avantages Cliniques\n\nCette technologie réduit significativement le nombre de biopsies inutiles en permettant une caractérisation plus précise des lésions. Elle améliore également la confiance diagnostique et réduit l'anxiété des patientes.\n\n## Applications en Sénologie\n\nEn sénologie, l'élastographie ShearWave s'avère particulièrement utile pour l'évaluation des lésions de taille intermédiaire et pour le suivi des patientes à haut risque.",
+      "image": "/uploads/Mach30B9_1757426799237.webp",
+      "author": "Dr Zeineb Belkhiria",
+      "publishDate": "2024-01-10",
+      "category": "Innovation",
+      "featured": true,
+      "video": ""
+    },
+    {
+      "id": "article-3",
+      "title": "Radiologie Interventionnelle : Techniques Mini-Invasives en Sénologie",
+      "excerpt": "Exploration des techniques interventionnelles modernes utilisées pour le diagnostic et le traitement des pathologies mammaires avec une approche minimalement invasive.",
+      "content": "La radiologie interventionnelle sénologique a connu des évolutions majeures ces dernières années, permettant des procédures de plus en plus précises et moins invasives.\n\n## Techniques de Biopsie Avancées\n\nLes biopsies percutanées guidées par échographie ou mammographie permettent aujourd'hui un diagnostic histologique précis avec un minimum de traumatisme tissulaire. Ces techniques sont devenues le standard de référence pour l'évaluation des lésions mammaires suspectes.\n\n## Procédures de Repérage Pré-Chirurgical\n\nLe repérage pré-chirurgical des lésions non palpables a été révolutionné par l'introduction de clips et de harpons intelligents. Ces dispositifs permettent une localisation précise des lésions cibles, facilitant l'exérèse chirurgicale.\n\n## Suivi et Surveillance\n\nLa radiologie interventionnelle joue également un rôle crucial dans le suivi post-thérapeutique et la surveillance des patientes à risque, permettant une détection précoce de toute récidive ou nouvelle lésion.",
+      "image": "/uploads/macrobiopsie-sein_1757426805274.webp",
+      "author": "Dr Zeineb Belkhiria",
+      "publishDate": "2024-01-05",
+      "category": "Technique",
+      "featured": true,
+      "video": ""
+    },
+    {
+      "id": "article-4",
+      "title": "Dépistage Organisé : Optimisation du Parcours Patient",
+      "excerpt": "Analyse des meilleures pratiques pour optimiser le parcours de dépistage du cancer du sein et améliorer l'expérience patient.",
+      "content": "Le dépistage organisé du cancer du sein nécessite une approche structurée et optimisée pour garantir la meilleure prise en charge possible des patientes.\n\n## Organisation du Parcours\n\nUn parcours de dépistage bien organisé doit minimiser les délais d'attente tout en maintenant la qualité des examens. Cela passe par une planification rigoureuse et une coordination efficace entre les différents intervenants.\n\n## Communication et Information\n\nL'information claire et accessible aux patientes est cruciale pour réduire l'anxiété et améliorer l'adhésion au dépistage. Une communication bienveillante et adaptée à chaque patiente favorise une expérience positive.\n\n## Suivi et Continuité\n\nLe suivi post-examen et la continuité des soins sont essentiels pour garantir une prise en charge optimale. Cela implique un système de relais efficace entre radiologues et médecins traitants.",
+      "image": "/uploads/departments-6_1757426883275.webp",
+      "author": "Dr Zeineb Belkhiria",
+      "publishDate": "2023-12-28",
+      "category": "Organisation",
+      "featured": true,
+      "video": ""
+    },
+    {
+      "id": "article-5",
+      "title": "Innovations en IRM Mammaire : Techniques de Contraste Avancées",
+      "excerpt": "Les dernières innovations en IRM mammaire avec injection de contraste et leur apport dans le diagnostic et la stadification des cancers du sein.",
+      "content": "L'IRM mammaire avec injection de contraste a révolutionné l'évaluation des pathologies mammaires complexes et le suivi des patientes à haut risque.\n\n## Techniques d'Acquisition\n\nLes séquences dynamiques avec injection de produit de contraste permettent une évaluation précise de la vascularisation des lésions. Cette information est cruciale pour la caractérisation tissulaire et la stadification tumorale.\n\n## Indications Cliniques\n\nL'IRM mammaire trouve ses principales indications dans l'évaluation des patientes à haut risque, le bilan d'extension des cancers connus, et la recherche de lésions occultes en cas de métastases ganglionnaires.\n\n## Interprétation et Reporting\n\nL'interprétation des images d'IRM mammaire nécessite une expertise particulière et une connaissance approfondie des sémiologies normales et pathologiques. Le reporting structuré améliore la communication avec les équipes cliniques.",
+      "image": "/uploads/departments-4_1757426878386.webp",
+      "author": "Dr Zeineb Belkhiria",
+      "publishDate": "2023-12-20",
+      "category": "Technologie",
+      "featured": true,
+      "video": ""
+    },
+    {
+      "id": "article-6",
+      "title": "Qualité et Sécurité en Imagerie Médicale",
+      "excerpt": "Les enjeux de la qualité et de la sécurité en imagerie médicale, avec un focus sur les protocoles de contrôle qualité et les bonnes pratiques.",
+      "content": "La qualité et la sécurité en imagerie médicale sont des enjeux fondamentaux qui nécessitent une approche rigoureuse et systématique.\n\n## Contrôle Qualité\n\nLes protocoles de contrôle qualité doivent être réguliers et documentés. Cela inclut la calibration des équipements, la vérification des doses de rayonnement, et l'évaluation de la qualité des images.\n\n## Sécurité des Patients\n\nLa sécurité des patients passe par une identification rigoureuse, une vérification des indications, et une adaptation des protocoles aux caractéristiques individuelles de chaque patiente.\n\n## Formation et Compétences\n\nLa formation continue du personnel et le maintien des compétences sont essentiels pour garantir un niveau de qualité optimal. Cela inclut la formation technique, mais aussi la formation à la communication et à la relation patient.",
+      "image": "/uploads/departments-5_1757426855845.webp",
+      "author": "Dr Zeineb Belkhiria",
+      "publishDate": "2023-12-15",
+      "category": "Qualité",
+      "featured": true,
+      "video": ""
+    }
+  ],
+  "media": [
+    {
+      "id": "media-1",
+      "title": "Interview Avec RTCI",
+      "description": "À l'occasion du lancement officiel de l'Alliance Africaine pour la Santé Globale des Femmes en Oncologie (#AWGHO), Dr Zaineb Belkhiria était l'invitée de l'émission 'Autour de Midi' sur RTCI.",
+      "content": "À l'occasion du lancement officiel de l'Alliance Africaine pour la Santé Globale des Femmes en Oncologie (#AWGHO), prévu le vendredi 16 mai 2025, Dr Zaineb Belkhiria, radiologue et secrétaire de l'Alliance, était l'invitée de l'émission \"Autour de Midi\" sur RTCI avec Mehdi Haouas.\n\nCette interview exclusive a permis de présenter les objectifs de l'Alliance et l'importance du dépistage précoce du cancer du sein en Afrique. Dr Belkhiria a partagé son expertise en imagerie mammaire et les dernières avancées technologiques dans le domaine.",
+      "type": "interview",
+      "date": "2025-05-16",
+      "location": "RTCI - Tunis",
+      "media": "https://youtu.be/zc41iCEW9AQ",
+      "mediaType": "youtube",
+      "images": [
+        "/uploads/media/rtci-interview-1.jpg",
+        "/uploads/media/rtci-interview-2.jpg"
+      ],
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "media-2",
+      "title": "Caravane de santé avec l'institut SALAH Azaiez",
+      "description": "Consultation externe avancée avec mammographie, échographie et biopsie dans le cadre de la caravane de santé.",
+      "content": "Participation active à la caravane de santé organisée avec l'institut SALAH Azaiez en mai 2023. Cette mission a permis de réaliser des consultations externes avancées avec :\n\n• Mammographie numérique haute résolution\n• Échographie mammaire Doppler couleur\n• Biopsie guidée par imagerie\n• Consultation spécialisée en sénologie\n\nCette initiative a touché plus de 200 femmes et a permis de détecter plusieurs cas nécessitant un suivi médical approfondi.",
+      "type": "campaign",
+      "date": "2023-05-15",
+      "location": "Institut SALAH Azaiez",
+      "media": "/uploads/videoframe_0_1758452082752.png",
+      "mediaType": "image",
+      "images": [
+        "/uploads/media/caravane-sante-1.jpg",
+        "/uploads/media/caravane-sante-2.jpg",
+        "/uploads/media/caravane-sante-3.jpg"
+      ],
+      "featured": true,
+      "order": 2
+    },
+    {
+      "id": "media-3",
+      "title": "Village Octobre Rose Congo Pointe Noire",
+      "description": "Campagne de sensibilisation avec échographie et biopsie orientée à Pointe-Noire au Congo.",
+      "content": "Participation au Village Octobre Rose à Pointe-Noire, République du Congo, en octobre 2024. Cette campagne de sensibilisation internationale a permis de :\n\n• Sensibiliser la population locale au dépistage du cancer du sein\n• Réaliser des échographies mammaires de dépistage\n• Effectuer des biopsies orientées par imagerie\n• Former le personnel médical local aux techniques avancées\n\nCette mission humanitaire a permis de toucher plus de 500 femmes et de former une équipe médicale locale aux dernières techniques d'imagerie mammaire.",
+      "type": "campaign",
+      "date": "2024-10-15",
+      "location": "Pointe-Noire, Congo",
+      "media": "/uploads/whatsapp3-3_1758452111867.webp",
+      "mediaType": "image",
+      "images": [
+        "/uploads/media/village-octobre-rose-1.jpg",
+        "/uploads/media/village-octobre-rose-2.jpg",
+        "/uploads/media/village-octobre-rose-3.jpg"
+      ],
+      "featured": true,
+      "order": 3
+    },
+    {
+      "id": "media-4",
+      "title": "Cours Supérieur de Sénologie",
+      "description": "Cours avancé sur l'imagerie du sein triple négatif, formations interactives avec spécialistes internationaux.",
+      "content": "Animation du Cours Supérieur de Sénologie en septembre 2024, focalisé sur l'imagerie du sein triple négatif. Cette formation avancée a rassemblé des spécialistes internationaux et a couvert :\n\n• Imagerie multimodale du cancer du sein triple négatif\n• Techniques d'évaluation de la réponse thérapeutique\n• Imagerie de surveillance post-traitement\n• Cas cliniques complexes et discussions interactives\n\nCette formation a permis de partager les dernières avancées en imagerie mammaire et d'améliorer la prise en charge des patientes.",
+      "type": "course",
+      "date": "2024-09-20",
+      "location": "Tunis, Tunisie",
+      "media": "/uploads/whatsapp4-1_1758452134389.webp",
+      "mediaType": "image",
+      "images": [
+        "/uploads/media/cours-senologie-1.jpg",
+        "/uploads/media/cours-senologie-2.jpg",
+        "/uploads/media/cours-senologie-3.jpg"
+      ],
+      "featured": false,
+      "order": 4
+    },
+    {
+      "id": "media-5",
+      "title": "Breast Cancer Update",
+      "description": "Rencontre internationale à Dubaï avec des spécialistes du cancer du sein, échanges sur les dernières avancées.",
+      "content": "Participation au congrès international \"Breast Cancer Update\" à Dubaï en février 2023. Cette rencontre internationale a permis d'échanger avec des spécialistes mondiaux du cancer du sein sur :\n\n• Les dernières avancées en imagerie mammaire\n• Les nouvelles technologies de diagnostic\n• L'intelligence artificielle en sénologie\n• Les protocoles de traitement personnalisés\n\nCette participation a contribué à l'enrichissement des connaissances et à l'établissement de collaborations internationales.",
+      "type": "seminar",
+      "date": "2023-02-15",
+      "location": "Dubaï, Émirats Arabes Unis",
+      "media": "/uploads/whatsapp5-1_1758452150331.webp",
+      "mediaType": "image",
+      "images": [
+        "/uploads/media/breast-cancer-update-1.jpg",
+        "/uploads/media/breast-cancer-update-2.jpg",
+        "/uploads/media/breast-cancer-update-3.jpg"
+      ],
+      "featured": false,
+      "order": 5
+    },
+    {
+      "id": "media-6",
+      "title": "Master Class Angio Mammographie",
+      "description": "Workshop diplômant à l'American Hospital de Dubaï sur l'angio-mammographie, participation d'experts renommés.",
+      "content": "Organisation et animation de la Master Class Angio Mammographie à l'American Hospital de Dubaï en février 2025. Ce workshop diplômant a rassemblé des experts renommés et a couvert :\n\n• Techniques d'angiographie mammaire\n• Interprétation des images vasculaires\n• Diagnostic différentiel des lésions vasculaires\n• Cas cliniques complexes\n\nCette formation a permis de certifier 25 radiologues internationaux aux techniques d'angio-mammographie avancées.",
+      "type": "course",
+      "date": "2025-02-20",
+      "location": "American Hospital, Dubaï",
+      "media": "/uploads/whatsapp6-2_1758452165251.webp",
+      "mediaType": "image",
+      "images": [
+        "/uploads/media/master-class-angio-1.jpg",
+        "/uploads/media/master-class-angio-2.jpg",
+        "/uploads/media/master-class-angio-3.jpg"
+      ],
+      "featured": true,
+      "order": 6
+    },
+    {
+      "id": "media-7",
+      "title": "Workshop AMINA",
+      "description": "Participation au consortium national d'intelligence artificielle appliquée à l'imagerie du sein.",
+      "content": "Participation active au Workshop AMINA en novembre 2025, consortium national dédié à l'intelligence artificielle appliquée à l'imagerie du sein. Cette initiative a permis de :\n\n• Développer des algorithmes d'IA pour le diagnostic précoce\n• Améliorer la détection des microcalcifications\n• Optimiser les protocoles d'imagerie\n• Former les équipes aux nouvelles technologies\n\nCe consortium représente une avancée majeure dans l'application de l'IA en sénologie en Tunisie.",
+      "type": "workshop",
+      "date": "2025-11-10",
+      "location": "Tunis, Tunisie",
+      "media": "/uploads/whatsapp7-1_1758452181597.webp",
+      "mediaType": "image",
+      "images": [
+        "/uploads/media/workshop-amina-1.jpg",
+        "/uploads/media/workshop-amina-2.jpg",
+        "/uploads/media/workshop-amina-3.jpg"
+      ],
+      "featured": false,
+      "order": 7
+    },
+    {
+      "id": "media-8",
+      "title": "Master Class Macro Biopsie Barcelone",
+      "description": "Workshop et master class en sénologie interventionnelle, macro biopsie, échanges pratiques et théoriques approfondis.",
+      "content": "Participation à la Master Class Macro Biopsie à Barcelone en juin 2024. Ce workshop spécialisé en sénologie interventionnelle a couvert :\n\n• Techniques de macro biopsie guidée par imagerie\n• Gestion des complications\n• Optimisation des protocoles\n• Échanges pratiques avec les experts européens\n\nCette formation a permis d'acquérir les techniques les plus avancées en biopsie mammaire et d'établir des collaborations avec les centres européens de référence.",
+      "type": "course",
+      "date": "2024-06-15",
+      "location": "Barcelone, Espagne",
+      "media": "/uploads/whatsapp8-2_1758452195233.webp",
+      "mediaType": "image",
+      "images": [
+        "/uploads/media/master-class-barcelone-1.jpg",
+        "/uploads/media/master-class-barcelone-2.jpg"
+      ],
+      "featured": false,
+      "order": 8
+    }
+  ],
+  "footer": {
+    "companyInfo": {
+      "name": "BIC",
+      "fullName": "Centre de Radiologie El Hakim",
+      "address": {
+        "line1": "Centre Médical El Hakim",
+        "line2": "Sous-sol (-1) — Voie X2 - Cité El Khadra",
+        "line3": "Tunis 1003"
+      },
+      "phone": "+216 53 008 108",
+      "email": "drzeinebbelkhiria@gmail.com"
+    },
+    "blog": {
+      "title": "Nos Blogs",
+      "description": "Bientôt disponible ! Restez informé des dernières avancées en radiologie, imagerie médicale et sénologie. Nos articles et conseils dédiés à la santé de la femme arrivent bientôt.",
+      "placeholder": "Votre adresse email"
+    },
+    "socialLinks": {
+      "facebook": "",
+      "linkedin": "",
+      "instagram": "",
+      "twitter": ""
+    },
+    "copyright": "Copyright BIC. All Rights Reserved",
+    "credits": "Designed and Developed by Wiem Mimouni"
+  },
+  "doctors": {
+    "title": "Médecins",
+    "subtitle": "Dr Zeineb Belkhiria vous accueille dans notre centre pour des services spécialisés en imagerie médicale. Grâce à son expertise et son engagement, bénéficiez d'un accompagnement personnalisé et professionnel.",
+    "members": [
+      {
+        "name": "Dr Zeineb Belkhiria",
+        "specialty": "Radiologue spécialisée en imagerie mammaire et interventionnelle",
+        "description": "Spécialiste en imagerie féminine et oncologique avec 7 ans d'expérience dans le secteur privé. Médecin scientifiquement et socialement engagée.",
+        "image": "/uploads/dr-belkiria__1__1757423247683.webp"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Gallerie",
+    "subtitle": "Situé à Cité El Khadra - Voie X2, Tunis 1003, notre Centre d'imagerie mammaire vous accueille du lundi au vendredi, de 8h à 19h, et 2 samedis par mois de 9h à 13h.",
+    "images": [
+      "/uploads/gallery-8_1757423296769.webp",
+      "/uploads/gallery-4_1757423302684.webp",
+      "/uploads/gallery-1__1__1757423308047.webp",
+      "/uploads/gallery-2_1757423314240.webp",
+      "/uploads/gallery-7_1757423320993.webp",
+      "/uploads/gallery-6_1757423327347.webp",
+      "/uploads/gallery-1_1757423335122.webp",
+      "/uploads/gallery-8_1757423340065.webp"
+    ]
+  },
+  "contactInfo": {
+    "address": {
+      "line1": "Centre Médical El Hakim",
+      "line2": "Sous-sol (-1)",
+      "line3": "Voie X2 - Cité El Khadra - Tunis 1003"
+    },
+    "email": {
+      "value": "drzeinebbelkhiria@gmail.com"
+    },
+    "phone": {
+      "value": "+216 53 008 108"
+    }
+  },
+  "businessHours": {
+    "weekdays": {
+      "days": "Lundi à Vendredi",
+      "hours": "8h à 19h"
+    },
+    "saturday": {
+      "days": "2 samedis par mois",
+      "hours": "9h à 13h"
+    }
+  }
+}

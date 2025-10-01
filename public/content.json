@@ -1,0 +1,128 @@
+{
+  "site": {
+    "title": "Breast Imaging Center",
+    "subtitle": "BIC",
+    "description": "Les experts en imagerie diagnostique et interventionnelle du sein"
+  },
+  "contact": {
+    "email": "drzeinebbelkhiria@gmail.com",
+    "phones": [
+      "+216 53 008 108",
+      "+216 57 132 305"
+    ]
+  },
+  "navigation": {
+    "logo": "/your-logo.webp",
+    "menuItems": [
+      {
+        "label": "Accueil",
+        "href": "#accueil"
+      },
+      {
+        "label": "Infos",
+        "href": "#infos"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Départements",
+        "href": "#departements"
+      },
+      {
+        "label": "Médecins",
+        "href": "#medecins"
+      },
+      {
+        "label": "Médias",
+        "href": "#medias"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "ctaButton": "Rendez-Vous"
+  },
+  "hero": {
+    "title": "Breast Imaging Center",
+    "subtitle": "Les experts en imagerie diagnostique et interventionnelle du sein",
+    "backgroundImage": "https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop",
+    "ctaButtons": {
+      "primary": "Prendre Rendez-vous",
+      "secondary": "En savoir plus"
+    }
+  },
+  "whyChoose": {
+    "title": "Pourquoi Choisir BIC ?",
+    "description": "Parce que nous visons l'excellence, nous avons investi dans une technologie de pointe pour offrir un service alliant confort, innovation et expertise scientifique. Notre centre est une référence en imagerie du sein et en radiologie générale, intégrant les dernières avancées en intelligence artificielle et en logistique médicale. Grâce à notre plateforme unique en Afrique du Nord, nous garantissons un accompagnement personnalisé, où chaque patiente bénéficie d'un suivi attentif et d'une prise en charge optimisée. Votre santé est notre priorité, et notre équipe est à votre écoute avec bienveillance et engagement.",
+    "image": "https://images.pexels.com/photos/4173624/pexels-photo-4173624.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    "features": [
+      {
+        "title": "Une approche centrée sur le patient",
+        "description": "Une optimisation des examens, une communication claire et un suivi personnalisé.",
+        "icon": "Heart"
+      },
+      {
+        "title": "Un diagnostic synthétique",
+        "description": "Des services d'expertise et de relecture, en coordination avec les médecins soignants.",
+        "icon": "Target"
+      },
+      {
+        "title": "Un engagement sociale et scientifique",
+        "description": "Des participations bénévoles avec des partenaires reconnus.",
+        "icon": "Award"
+      }
+    ]
+  },
+  "doctors": {
+    "title": "Médecins",
+    "subtitle": "Dr Zeineb Belkhiria vous accueille dans notre centre pour des services spécialisés en imagerie médicale. Grâce à son expertise et son engagement, bénéficiez d'un accompagnement personnalisé et professionnel.",
+    "members": [
+      {
+        "name": "Dr Zeineb Belkhiria",
+        "specialty": "Radiologue spécialisée en imagerie mammaire et interventionnelle",
+        "description": "Spécialiste en imagerie féminine et oncologique avec 7 ans d'expérience dans le secteur privé. Médecin scientifiquement et socialement engagée.",
+        "image": "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Gallerie",
+    "subtitle": "Situé à Cité El Khadra - Voie X2, Tunis 1003, notre Centre d'imagerie mammaire vous accueille du lundi au vendredi, de 8h à 19h, et 2 samedis par mois de 9h à 13h.",
+    "images": [
+      "https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "https://images.pexels.com/photos/4173239/pexels-photo-4173239.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "https://images.pexels.com/photos/4173502/pexels-photo-4173502.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "https://images.pexels.com/photos/4173519/pexels-photo-4173519.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "https://images.pexels.com/photos/4173258/pexels-photo-4173258.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "https://images.pexels.com/photos/4173634/pexels-photo-4173634.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "https://images.pexels.com/photos/4173641/pexels-photo-4173641.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      "https://images.pexels.com/photos/4173624/pexels-photo-4173624.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+    ]
+  },
+  "contactInfo": {
+    "address": {
+      "line1": "Centre Médical El Hakim",
+      "line2": "Sous-sol (-1)",
+      "line3": "Voie X2 - Cité El Khadra - Tunis 1003"
+    },
+    "email": {
+      "value": "drzeinebbelkhiria@gmail.com"
+    },
+    "phone": {
+      "value": "+216 53 008 108"
+    }
+  },
+  "businessHours": {
+    "weekdays": {
+      "days": "Lundi au Vendredi",
+      "hours": "8h à 19h"
+    },
+    "saturday": {
+      "days": "2 samedis par mois",
+      "hours": "9h à 13h"
+    }
+  }
+}
